@@ -1,0 +1,12 @@
+[Unit]
+Description=Patroni VIP Manager
+Wants=patroni.service
+
+[Service]
+Type=simple
+ExecStart=/opt/patroni_vip_manager/patroni_vip_manager.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+

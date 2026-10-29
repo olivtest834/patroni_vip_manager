@@ -1,0 +1,14 @@
+{
+	"wait":"1",
+	"patroni_cfg_file":"/etc/patroni/patroni.yml",
+	"vips":{
+		"primary":{
+			"ip":"192.168.1.210",
+			"interface":"enp0s3"
+		},
+		"replica":{
+			"ip":"192.168.1.211",
+			"interface":"enp0s3"
+		}
+	}
+}
